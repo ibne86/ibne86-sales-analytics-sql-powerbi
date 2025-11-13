@@ -1,0 +1,10 @@
+# large/local stuff
+data/*.csv
+data/*.parquet
+*.pbix
+
+# R / OS clutter
+.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
