@@ -1,7 +1,7 @@
 # Retail Analytics — SQL (PostgreSQL) + Power BI + R stats
 
 ## Dataset
-**Dataset:** Northwind (multi-table retail; link to Kaggle).  
+**Dataset:** Northwind (multi-table retail; https://www.kaggle.com/datasets/matthuan/northwind-dataset/data).  
 **DB:** PostgreSQL (pgAdmin).  
 **Tables used:** customers, orders, order_details, products, categories, suppliers, employees.
 
@@ -9,7 +9,7 @@
 - `sql/` – sanity checks, cleaning, analysis queries
 - `r/` – conditional probabilities + hypothesis tests (t-test / prop test) + Analysis between different variables +  linear regression
 - `powerbi/` – report (`.pbix`) or screenshots in `figs/`
-- `data/raw/` – CSVs
+- `data/raw/` – CSVs (kept out of Git)
 
 ## How to run (PostgreSQL + pgAdmin)
 
