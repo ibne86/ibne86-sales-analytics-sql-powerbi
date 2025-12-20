@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: northwind_raw
+    schema: public
+    tables:
+      - name: categories
+      - name: customers
+      - name: employees
+      - name: employee_territories
+      - name: order_details
+      - name: orders
+      - name: products
+      - name: region
+      - name: shippers
+      - name: suppliers
+      - name: territories
