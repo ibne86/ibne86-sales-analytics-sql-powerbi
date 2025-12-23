@@ -15,11 +15,25 @@
 **DB:** PostgreSQL (pgAdmin).  
 **Tables used:** categories, customers, employees, employee_territories, order_details, orders, products, region, shippers, suppliers, territories.
 
+**Quick links**
+- ER diagram: `figs/northwind-erd.png`
+- dbt lineage (staging): `figs/dbt-lineage-staging.png`
+
 ## Data model (ER Diagram)
-![Northwind ER diagram](figs/northwind-erd.png)
+<details>
+  <summary>View ER diagram</summary>
+
+  ![Northwind ER diagram](figs/northwind-erd.png)
+
+</details>
 
 ## dbt Lineage (DAG)
-![dbt lineage](figs/dbt-lineage-staging.png)
+<details>
+  <summary>View dbt lineage graph</summary>
+
+  ![dbt lineage](figs/dbt-lineage-staging.png)
+
+</details>
 
 ## Data quality checks (dbt tests)
 This project uses dbt tests to validate both structural integrity (PK/FK) and basic business rules.
